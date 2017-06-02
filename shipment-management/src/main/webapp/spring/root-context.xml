@@ -18,7 +18,7 @@
     <context:component-scan base-package="com.shipment.management.idao"/>
     <context:component-scan base-package="com.shipment.management.ibo"/> 	 									
     <!--CARGA DE PERSISTENCIA (DATASOURCE) -->
-	<import resource="persistencia.xml"/>
+	<!-- <import resource="persistencia.xml"/> -->
 	
 	  <!-- Quarzt -->
   	 <!-- <import resource="quartz.xml"/> -->
