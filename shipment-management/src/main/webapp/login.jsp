@@ -34,7 +34,7 @@
             <input type="checkbox" value="cliente"> Cliente
           </label>
         </div>
-        <button class="btn btn-lg btn-shipment btn-block" type="submit">Login</button>
+        <button class="btn btn-lg btn-shipment btn-block" type="submit">login</button>
       </form>
 
     </div> <!-- /container -->
