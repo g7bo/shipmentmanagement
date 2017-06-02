@@ -29,7 +29,7 @@ body {
 .form-signin .form-control:focus {
   z-index: 2;
 }
-.form-signin input[type="email"] {
+.form-signin input[type="text"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -38,4 +38,62 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+.btn-shipment {
+  color: #fff;
+  background-color: #191a1c;
+  border-color: #fff;
+}
+
+.btn-shipment:focus,
+.btn-shipment.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.btn-shipment:hover {
+  color: #400040;
+  background-color: #ffffff;
+  border-color: #400040;
+}
+.btn-shipment:active,
+.btn-shipment.active,
+.open > .dropdown-toggle.btn-shipment {
+  color: #fff;
+  background-color: #191a1c;
+  border-color: #fff;
+}
+.btn-shipment:active:hover,
+.btn-shipment.active:hover,
+.open > .dropdown-toggle.btn-shipment:hover,
+.btn-shipment:active:focus,
+.btn-shipment.active:focus,
+.open > .dropdown-toggle.btn-shipment:focus,
+.btn-shipment:active.focus,
+.btn-shipment.active.focus,
+.open > .dropdown-toggle.btn-shipment.focus {
+  color: #fff;
+  background-color: #191a1c;
+  border-color: #fff;
+}
+.btn-shipment:active,
+.btn-shipment.active,
+.open > .dropdown-toggle.btn-shipment {
+  background-image: none;
+}
+.btn-shipment.disabled:hover,
+.btn-shipment[disabled]:hover,
+fieldset[disabled] .btn-shipment:hover,
+.btn-shipment.disabled:focus,
+.btn-shipment[disabled]:focus,
+fieldset[disabled] .btn-shipment:focus,
+.btn-shipment.disabled.focus,
+.btn-shipment[disabled].focus,
+fieldset[disabled] .btn-shipment.focus {
+  background-color: #400040;
+  border-color: #400040;
+}
+.btn-shipment .badge {
+  color: #ffffff;
+  background-color: #400040;
 }
