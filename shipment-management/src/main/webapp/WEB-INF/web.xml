@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_5.dtd" >
 
 <web-app>
-    <display-name>ShipmentManagement</display-name>
+    <display-name>shipment-management</display-name>
   	
   <context-param>
     <param-name>contextConfigLocation</param-name>

@@ -12,10 +12,10 @@
     <title>Shipment Management</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./bootstrap-3.3.7-dist/css/signin.css" rel="stylesheet">
+    <link href="../resources/bootstrap-3.3.7-dist/css/signin.css" rel="stylesheet">
   
   </head>
 
