@@ -16,6 +16,8 @@
 
     <!-- Custom styles for this template -->
     <link href="../resources/bootstrap-3.3.7-dist/css/signin.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="../resources/jquery/jquery-3.2.1.js" ></script>
   
   </head>
 
@@ -23,7 +25,7 @@
 
     <div class="container">
 
-      <form class="form-signin">
+      <form class="form-signin" id="form-sign" >
         <h2 class="form-signin-heading">Iniciar sesión</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Usuario o Cliente" required autofocus>
@@ -38,6 +40,15 @@
       </form>
 
     </div> <!-- /container -->
+    
+    <script type="text/javascript">
+    $( "#form-sign" ).submit(function( event ) {
+    	  alert( "Handler for .submit() called. val Text: "+$("#email").val() );
+    	  
+    });
+    
+    	
+    </script>
 
   </body>
 </html>
