@@ -25,4 +25,18 @@
     <servlet-name>appServlet</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
+  
+ <!-- para pruebas del jtable --> 
+  <servlet>
+    <servlet-name>CRUDController</servlet-name>
+    <servlet-class>com.programmingfree.controller.CRUDController</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>CRUDController</servlet-name>
+    <url-pattern>/CRUDController</url-pattern>
+  </servlet-mapping>
+
+
+
 </web-app>
