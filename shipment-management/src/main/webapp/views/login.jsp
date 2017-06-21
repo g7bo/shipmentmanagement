@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -28,7 +28,7 @@
       <form class="form-signin" id="form-sign" >
         <h2 class="form-signin-heading">Iniciar sesión</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Usuario o Cliente" required autofocus>
+        <input type="text" id="inputLogin" class="form-control" placeholder="Usuario o Cliente" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <div class="checkbox">
@@ -43,7 +43,17 @@
     
     <script type="text/javascript">
     $( "#form-sign" ).submit(function( event ) {
-    	  alert( "Handler for .submit() called. val Text: "+$("#email").val() );
+    	alert( $("#inputLogin").val() );
+    	$.ajax({
+            type : "POST",
+            url  : "/shipment-management/inicio",
+            //data : { login: $("#inputLogin").val() },
+            //dataType: "json",
+           // contentType: "application/json; charset=utf-8",
+            success : function(response) {
+                alert("Success");
+            }
+        });
     	  
     });
     

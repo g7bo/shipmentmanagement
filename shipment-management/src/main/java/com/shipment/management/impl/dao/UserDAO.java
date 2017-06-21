@@ -14,7 +14,7 @@ public class UserDAO implements IUserDAO {
 	
 	@Override
 	public UserDTO loginUser(UserDTO user) {
-		logger.debug("En ", this.getClass().getSimpleName() );
+		logger.debug("En %", this.getClass().getSimpleName() );
 		return null;
 	}
 
