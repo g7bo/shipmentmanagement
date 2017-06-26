@@ -171,6 +171,14 @@
 	    <version>42.1.1</version>
 	</dependency>
 	
+	<!-- https://mvnrepository.com/artifact/aopalliance/aopalliance -->
+	<dependency>
+	    <groupId>aopalliance</groupId>
+	    <artifactId>aopalliance</artifactId>
+	    <version>1.0</version>
+	</dependency>
+		
+	
 	 
     <dependency>
       <groupId>junit</groupId>

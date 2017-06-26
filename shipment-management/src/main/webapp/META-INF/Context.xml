@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context path="/valija2" docBase="valija2"
+	crossContext="true" reloadable="true" debug="1">
+	
+	<Resource auth="Container" 
+		driverClassName="org.postgresql.Driver" 
+		global="jdbc/ShipmentManagementDS" 
+		maxActive="100" 
+		maxIdle="20" 
+		maxWait="10000" 
+		minIdle="5" 
+		name="jdbc/ShipmentManagementDS" 
+		password="admin" 
+		type="javax.sql.DataSource" 
+		url="jdbc:postgresql://localhost:5432/ShipmentManagement" 
+		username="postgres"/>
+</context>

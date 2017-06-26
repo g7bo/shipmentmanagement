@@ -43,13 +43,13 @@
     
     <script type="text/javascript">
     $( "#form-sign" ).submit(function( event ) {
-    	alert( $("#inputLogin").val() );
+    	
     	$.ajax({
             type : "POST",
-            url  : "/shipment-management/inicio",
-            //data : { login: $("#inputLogin").val() },
-            //dataType: "json",
-           // contentType: "application/json; charset=utf-8",
+            url  : "inicio.do,
+            data : { login: $("#inputLogin").val() },
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
             success : function(response) {
                 alert("Success");
             }
