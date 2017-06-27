@@ -14,7 +14,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.reflect.TypeToken;
 //import com.programmingfree.dao.CrudDao;
-import com.shipment.management.dto.User;;;
+import com.shipment.management.dto.User;
 
 
 public class CRUDController extends HttpServlet {
