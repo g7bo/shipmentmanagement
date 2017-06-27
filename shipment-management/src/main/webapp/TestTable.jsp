@@ -5,14 +5,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-   
+   <!-- 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js" ></script>
-	<!-- Include one of jTable styles. -->
+	 -->
+	<!-- Include one of jTable styles. 
 	<link href="./resources/jtable.2.4.0/themes/metro/blue/jtable.min.css" rel="stylesheet" type="text/css" />
-	<!-- Include jTable script file. -->
+	-->
+	<!-- Include jTable script file. 
 	<script src="./resources/jtable.2.4.0/jquery.jtable.min.js" type="text/javascript"></script>
+	 -->
+	 
+	 
+    <link href="tmp/themes/redmond/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+	<link href="tmp/scripts/jtable/themes/lightcolor/blue/jtable.css" rel="stylesheet" type="text/css" />
 	
+	<script src="tmp/scripts/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script src="tmp/scripts/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+    <script src="tmp/scripts/jtable/jquery.jtable.js" type="text/javascript"></script>
+		 
+	 
+	 
+	 
 	<script type="text/javascript">
     $(document).ready(function () {
     	        $('#PersonTableContainer').jtable({
@@ -50,7 +64,7 @@
     		        $('#PersonTableContainer').jtable('load');
     		    });
     		</script>
-</script>
+
 </head>
 <body>
 	<div id="PersonTableContainer"></div>
